@@ -16,6 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       staticDate,
     },
+    revalidate: 10,
   };
 };
 
