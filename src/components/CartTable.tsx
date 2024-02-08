@@ -24,6 +24,7 @@ const CartTableRow = (props: { entry: CartEntry }) => {
               alt={props.entry.product.name}
               height={500}
               width={600}
+              style={{ width: "100%", height: "100%" }}
             />
           </Col>
           <Col xs={8} md={10} lg={11}>

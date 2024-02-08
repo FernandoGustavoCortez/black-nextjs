@@ -27,6 +27,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             alt="Product"
             height={500}
             width={600}
+            style={{ width: "100%", height: "100%" }}
           />
         </Link>
 
